@@ -4,7 +4,7 @@
   int ledPin = 13;               
   int pirPin = 6;                
 
-  int lastPirVal = LOW;          
+  int lastPirVal = LOW;           
   int pirVal;                   
 
   unsigned long myTime;        
