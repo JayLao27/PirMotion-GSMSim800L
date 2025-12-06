@@ -73,6 +73,8 @@ After confirming your PIR sensor works, you can implement the SMS alert system:
 
    <img src="https://imgur.com/Up3RDqe.jpg" width="300" alt="Arduino IDE Serial Monitor displaying motion detection logs with timestamps, showing Motion detected! and SMS sent! messages confirming successful PIR sensor trigger and SMS transmission via SIM800L module">
 
+
+   <img src="https://i.imgur.com/YKJvnLr.jpg" width="300">
 ### Important Notes
 - The SIM800L must complete network registration before motion detection will trigger SMS alerts
 - The blinking pattern (every 3 seconds) confirms successful network connection
