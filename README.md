@@ -71,6 +71,8 @@ After confirming your PIR sensor works, you can implement the SMS alert system:
    - You should receive a text message saying "Motion Detected!"
    - Serial Monitor will show "Motion detected!" and "SMS sent!" messages
 
+
+   <img src="https://i.imgur.com/YKJvnLr.jpg" width="300">
 ### Important Notes
 - The SIM800L must complete network registration before motion detection will trigger SMS alerts
 - The blinking pattern (every 3 seconds) confirms successful network connection
