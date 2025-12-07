@@ -47,7 +47,7 @@ After confirming your PIR sensor works, you can implement the SMS alert system:
 - SIM800L RX → Pin 10
 - SIM800L TX → Pin 11
 
-### Implementation Steps
+### Implementation Steps (W/SIM800L)
 
 1. **Configure Phone Number**: Update `SMS_TARGET` in the code with your phone number (format: "+1234567890")
 2. **Insert SIM Card**: Place an active SIM card into the SIM800L module
