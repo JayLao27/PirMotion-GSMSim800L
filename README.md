@@ -1,5 +1,7 @@
 # Motion Detection Arduino Project
 
+A simple motion detection system using a PIR sensor to control an LED.
+
 ## Hardware Setup to test your PIR sensor to detect motion.
 **Testing**: PIR SENSOR.
 
@@ -37,6 +39,13 @@ The PIR sensor detects motion and triggers the LED:
   </tr>
 </table>
 
+## Getting Started
+
+1. Connect PIR sensor to pin 6
+2. Connect LED cathode to pin 13
+3. Upload `motion-detection.ino` to your Arduino board
+4. Open Serial Monitor (9600 baud) to view motion events
+
 ## SMS Motion Detection (`sms-motion.ino`)
 
 After confirming your PIR sensor works, you can implement the SMS alert system:
@@ -62,7 +71,7 @@ After confirming your PIR sensor works, you can implement the SMS alert system:
    - You should receive a text message saying "Motion Detected!"
   - Serial Monitor will show "Motion detected!" and "SMS sent!" messages
 
-   <img src="https://imgur.com/Up3RDqe.jpg" width="1000" alt="Arduino IDE Serial Monitor displaying motion detection logs with timestamps, showing Motion detected! and SMS sent! messages confirming successful PIR sensor trigger and SMS transmission via SIM800L module">
+   <img src="https://imgur.com/Up3RDqe.jpg" width="500" alt="Arduino IDE Serial Monitor displaying motion detection logs with timestamps, showing Motion detected! and SMS sent! messages confirming successful PIR sensor trigger and SMS transmission via SIM800L module">
 
 
 ### Important Notes
