@@ -2,7 +2,7 @@
 
 #define TINY_GSM_MODEM_SIM800
 #define SerialMon Serial
-#define SMS_TARGET "+639165715798"
+#define SMS_TARGET "Your number here"
 
 #include <SoftwareSerial.h>
 SoftwareSerial SerialAT(11, 10);
